@@ -1,0 +1,12 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: tomato;
+  color: darkgray;
+  font-size: 16px;
+}

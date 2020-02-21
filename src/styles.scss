@@ -1,9 +1,17 @@
 @use 'base';
 @use 'variables';
 
+body {
+  background-image: url("../assets/waves-parfish.png");
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position-y: 100px;
+  font-family: variables.$primary-font;
+}
+
 .header__nav {
   display: flex;
-  background-color: variables.$footer-background-color;
+  background-color: variables.$dark-red;
 }
 
 .header__nav__logo {
@@ -20,6 +28,12 @@
   padding-top: 10px;
 }
 
+.main__h1 {
+  text-align: center;
+  padding: 40px;
+  color: variables.$dark-red;
+}
+
 .footer__nav {
   display: flex;
   justify-content: space-evenly;
@@ -27,7 +41,7 @@
   right: 0;
   bottom: 0;
   position: fixed;
-  background-color: variables.$footer-background-color;
+  background-color: variables.$dark-red;
 }
 
 .footer__nav__button {

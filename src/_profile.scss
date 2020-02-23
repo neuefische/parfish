@@ -36,3 +36,15 @@ p {
   color: variables.$dark-red;
   font-size: 0.9rem;
 }
+
+.profile__main__search {
+  margin-top: 110px;
+  margin-left: 30px;
+  color: variables.$dark-red;
+}
+
+.profile__main__search__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: start;
+}

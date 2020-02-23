@@ -51,6 +51,7 @@
 .profile__main__dates__picture {
   width: 120px;
   border: solid black 1px;
+  border-radius: 3px;
 }
 
 img {
@@ -73,10 +74,15 @@ p {
 }
 
 .profile__main__bio {
-  margin: 10px;
+  width: 85%;
+  margin-top: 10px;
   margin-left: 20px;
+  padding: 3px;
   color: variables.$dark-red;
   font-size: 0.9rem;
+  background-color: rgba(245, 244, 244, 0.89);
+  margin-right: 20px;
+  border-radius: 7px;
 }
 
 .profile__main__search {

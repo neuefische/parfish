@@ -1,5 +1,47 @@
 @use 'variables';
 
+.header__nav__dropdown {
+  position: absolute;
+  right: 4px;
+  font-size: 0.8rem;
+  color: variables.$font-white;
+  padding-top: 10px;
+}
+
+.header__nav__dropdown a {
+  text-decoration: none;
+  color: variables.$font-white;
+}
+
+.profile__nav__header__ul {
+  position: absolute;
+  right: -4px;
+  list-style: none;
+  margin-top: 2px;
+  padding: 7px;
+  width: 90px;
+  background-color: variables.$dark-red;
+  border-radius: 0 0 7px 7px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: all 0.4s ease;
+}
+
+.profile__nav__header__li {
+  padding-bottom: 5px;
+}
+
+.header__nav__button__icon {
+  width: 30px;
+}
+
+.header__nav__dropdown button:focus + ul {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateY(0px);
+}
+
 .profile__main__dates {
   display: flex;
   margin-top: 25px;

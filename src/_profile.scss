@@ -29,3 +29,10 @@ p {
 .profile__main__dates__strings__description {
   font-size: 0.6rem;
 }
+
+.profile__main__bio {
+  margin: 5px;
+  margin-left: 20px;
+  color: variables.$dark-red;
+  font-size: 0.9rem;
+}

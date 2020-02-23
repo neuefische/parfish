@@ -1,0 +1,31 @@
+@use 'variables';
+
+.profile__main__dates {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.profile__main__dates__picture {
+  width: 120px;
+  border: solid black 1px;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.profile__main__dates__strings {
+  margin-left: 10px;
+  margin-right: 20px;
+  color: variables.$dark-red;
+}
+
+p {
+  margin-top: 0;
+}
+
+.profile__main__dates__strings__description {
+  font-size: 0.6rem;
+}

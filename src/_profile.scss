@@ -113,7 +113,7 @@ p {
   justify-items: center;
 }
 
-.register-form__go-fishing button {
+.profile__main__search__go-fishing button {
   width: 150px;
   background-color: variables.$dark-red;
   border: none;
@@ -134,7 +134,7 @@ p {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.register-form__go-fishing button:active {
+.profile__main__search__go-fishing button:active {
   box-shadow: none;
   outline: none;
   background-color: variables.$dark-red;

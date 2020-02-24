@@ -33,13 +33,18 @@ body {
   right: 4px;
   font-size: 1.2rem;
   color: variables.$font-white;
-  padding-top: 10px;
+  padding-top: 18px;
 }
 
 .main__h1 {
   text-align: center;
   padding: 40px;
+  margin-top: 70px;
   color: variables.$dark-red;
+}
+
+.main__h1__b {
+  text-align: end;
 }
 
 .footer__nav {

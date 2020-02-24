@@ -3,7 +3,7 @@
 @use 'profile';
 
 body {
-  background-image: url("../assets/waves-parfish.png");
+  background-image: url("../assets/waves_high.png");
   background-size: 400px;
   background-repeat: no-repeat;
   background-position-y: 100px;
@@ -13,12 +13,16 @@ body {
 .header__nav {
   display: flex;
   background-color: variables.$dark-red;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
 }
 
 .header__nav__logo {
   width: 200px;
-  padding-top: 3px;
-  padding-bottom: 5px;
+  padding-top: 7px;
+  padding-bottom: 10px;
 }
 
 .header__nav__button {

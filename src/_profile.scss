@@ -44,51 +44,58 @@
 
 .profile__main__dates {
   display: flex;
-  margin-top: 25px;
+  margin-top: 75px;
   margin-left: 20px;
 }
 
-.profile__main__dates__picture {
-  width: 120px;
-  border: solid black 1px;
-  border-radius: 3px;
-}
-
 img {
-  width: 100%;
-  display: block;
+  width: 120px;
+  border: solid variables.$dark-red 4px;
+  border-radius: 7px;
 }
 
 .profile__main__dates__strings {
   margin-left: 10px;
   margin-right: 20px;
-  color: variables.$dark-red;
+}
+
+.profile__main__dates__strings__input {
+  color: variables.$font-white;
+  background-color: rgba(148, 30, 0, 0.7);
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 6px;
+  border-radius: 7px;
+  max-width: 205px;
+  overflow: scroll;
 }
 
 p {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .profile__main__dates__strings__description {
-  font-size: 0.6rem;
+  color: variables.$dark-red;
 }
 
 .profile__main__bio {
-  width: 85%;
   margin-top: 10px;
   margin-left: 20px;
-  padding: 3px;
-  color: variables.$dark-red;
-  font-size: 0.9rem;
-  background-color: rgba(245, 244, 244, 0.89);
+  padding: 10px 10px 10px 10px;
+  color: variables.$font-white;
+  background-color: rgba(148, 30, 0, 0.7);
   margin-right: 20px;
   border-radius: 7px;
 }
 
 .profile__main__search {
-  margin-top: 110px;
+  margin-top: 160px;
   margin-left: 30px;
-  color: variables.$dark-red;
+  margin-bottom: 70px;
+  color: variables.$font-white;
+  background-color: rgba(148, 30, 0, 0.7);
+  border-radius: 7px;
 }
 
 .profile__main__search__grid {

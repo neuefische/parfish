@@ -3,6 +3,7 @@
 @use 'profile';
 @use 'signin_form';
 @use 'register_form';
+@use 'swarm';
 
 body {
   background-image: url("../assets/waves_high.png");

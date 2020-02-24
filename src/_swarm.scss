@@ -1,0 +1,22 @@
+.swarm__main__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.swarm__main__container__item {
+  border: solid rgba(148, 30, 0, 0.7) 4px;
+  border-radius: 7px;
+  text-align: center;
+  margin-bottom: 50px;
+  width: 250px;
+  color: #f0f0f0;
+  background-color: rgba(148, 30, 0, 0.7);
+}
+
+.swarm__main__container__item img {
+  width: 100%;
+  border: 0;
+}

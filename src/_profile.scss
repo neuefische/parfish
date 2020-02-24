@@ -3,7 +3,6 @@
 .header__nav__dropdown {
   position: absolute;
   right: 4px;
-  font-size: 0.8rem;
   color: variables.$font-white;
   padding-top: 10px;
 }
@@ -18,8 +17,8 @@
   right: -4px;
   list-style: none;
   margin-top: 2px;
-  padding: 7px;
-  width: 90px;
+  padding: 12px 12px 0px 12px;
+  width: 120px;
   background-color: variables.$dark-red;
   border-radius: 0 0 7px 7px;
   opacity: 0;
@@ -29,7 +28,7 @@
 }
 
 .profile__nav__header__li {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .header__nav__button__icon {
@@ -112,4 +111,29 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
+}
+
+.register-form__go-fishing button {
+  width: 150px;
+  background-color: variables.$dark-red;
+  border: none;
+  border-radius: 7px;
+  color: variables.$font-white;
+  padding: 12px 6px 12px 6px;
+  text-align: center;
+  text-decoration: none;
+  // display: inline-block;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 13px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.register-form__go-fishing button:active {
+  box-shadow: none;
+  outline: none;
+  background-color: variables.$dark-red;
 }

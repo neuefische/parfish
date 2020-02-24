@@ -1,12 +1,15 @@
 @use 'base';
 @use 'variables';
 @use 'signin_form';
+@use 'register_form';
+
 
 body {
   background-image: url("../assets/waves-parfish.png");
   background-size: 400px;
   background-repeat: no-repeat;
   background-position-y: 100px;
+  background-attachment: fixed;
   font-family: variables.$primary-font;
 }
 

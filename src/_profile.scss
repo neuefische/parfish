@@ -122,7 +122,9 @@ p {
   padding: 12px 6px 12px 6px;
   text-align: center;
   text-decoration: none;
-  // display: inline-block;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   font-size: 16px;
   text-transform: uppercase;
   margin-top: 13px;
@@ -136,4 +138,10 @@ p {
   box-shadow: none;
   outline: none;
   background-color: variables.$dark-red;
+}
+
+.profile__main__search__button__img {
+  width: 25px;
+  margin: 0;
+  border: none;
 }

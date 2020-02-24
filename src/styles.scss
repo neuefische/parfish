@@ -1,14 +1,14 @@
 @use 'base';
 @use 'variables';
+@use 'profile';
 @use 'signin_form';
 @use 'register_form';
 
-
 body {
-  background-image: url("../assets/waves-parfish.png");
+  background-image: url("../assets/waves_high.png");
   background-size: 400px;
   background-repeat: no-repeat;
-  background-position-y: 100px;
+  background-position-y: 160px;
   background-attachment: fixed;
   font-family: variables.$primary-font;
 }
@@ -16,12 +16,16 @@ body {
 .header__nav {
   display: flex;
   background-color: variables.$dark-red;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
 }
 
 .header__nav__logo {
   width: 200px;
-  padding-top: 3px;
-  padding-bottom: 5px;
+  padding-top: 7px;
+  padding-bottom: 10px;
 }
 
 .header__nav__button {
@@ -49,8 +53,8 @@ body {
 }
 
 .footer__nav__button {
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
 }
 
 .footer__nav__button__img {

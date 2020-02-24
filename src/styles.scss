@@ -6,7 +6,8 @@ body {
   background-image: url("../assets/waves_high.png");
   background-size: 400px;
   background-repeat: no-repeat;
-  background-position-y: 100px;
+  background-position-y: 160px;
+  background-attachment: fixed;
   font-family: variables.$primary-font;
 }
 

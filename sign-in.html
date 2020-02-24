@@ -135,26 +135,35 @@
         <div class="signin-form__residence">
           <input type="text" name="residence" placeholder="Wohnort" />
         </div>
-        <!--  <div class="signin-form__swarm">
-          <textarea name="swarm" placeholder="Ich schwärme für..."></textarea>
-        </div> 
-        <div class="signin-form__draught-gender">
-          <h3>Nach welchem Geschlecht fischst Du?</h3>
-          <input id="draught-female" type="checkbox" value="female" />
-          <label for="draught-female">Frau</label>
-          <input id="draught-male" type="checkbox" value="draught-male" /><label
-            for="male"
-            >Mann</label
-          >
-          <input id="draught-divers" type="checkbox" value="divers" />
-          <label for="divers">Divers</label>
-          <input id="draught-idontcare" type="checkbox" value="egal" />
-          <label for="draught-idontcare">Et kütt wie et kütt!</label>
+        <div class="signin-form__swarm">
+          <textarea name="swarm" placeholder="Ich schwärme für ..."></textarea>
         </div>
+        <div class="signin-form__no-swarm">
+          <textarea
+            name="no-go-swarm"
+            placeholder="Ich verachte zutiefst Folgendes ..."
+          ></textarea>
+        </div>
+
+        <div class="signin-form__draught-gender">
+          <div class="signin-form__gender">
+            <select
+              id="draught-gender"
+              class="signin-form__select"
+              name="draught-gender"
+            >
+              <option>Nach welchem Geschlecht fischst Du?</option>
+              <option>Frau</option>
+              <option>Mann</option>
+              <option>divers</option>
+              <option>Et kütt wie et kütt</option>
+            </select>
+          </div>
+        </div>
+
         <div class="signin-form__draught-distance">
-          <h3>Wie groß sollen Deine Fanggründe sein?</h3>
           <select id="draught-distance" class="signin-form__select">
-            <option>Wähle eine Entfernung</option>
+            <option>Wie groß sind Deine Fanggründe?</option>
             <option>bis 20 km</option>
             <option>bis 50 km</option>
             <option>bis 100 km</option>
@@ -163,9 +172,12 @@
           </select>
         </div>
         <div class="signin-form__draught-age">
-          <label for="draught-age">Wie alt soll Dein Fang sein?</label>
-          <select id="draught-age" class="signin-form__select">
-            <option>Wähle eine Altersstufe</option>
+          <select
+            id="draught-age"
+            name="draught-age"
+            class="signin-form__select"
+          >
+            <option>Wie alt soll Dein Fang sein?</option>
             <option>18 - 25</option>
             <option>25 - 35</option>
             <option>35 - 45</option>
@@ -173,10 +185,22 @@
             <option>Ü 55</option>
           </select>
         </div>
-        <div class="signin-form_go-fishing">
-          <button>Wirf die Angel aus</button>
+        <div class="signin-form__draught-relationship">
+          <select
+            id="signin-form__draught-relationship"
+            class="signin-form__select"
+            name="draught-relationship"
+          >
+            <option>Was bedeutet für Dich 'Beziehung'</option>
+            <option>One Night Stand</option>
+            <option>einmal Weihnachten zusammen feiern</option>
+            <option>lebenslanges gemeinsames Aquarium</option>
+            <option>offen für alles</option>
+          </select>
         </div>
-        -->
+        <div class="signin-form_go-fishing">
+          <button type="submit" name="submit">cast the fishing rod!</button>
+        </div>
       </form>
     </main>
     <footer>

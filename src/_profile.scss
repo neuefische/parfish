@@ -141,8 +141,9 @@ p {
 }
 
 .profile__main__search__link {
-  color: varables.$font-white;
+  color: variables.$font-white;
   text-decoration: none;
+  outline: none;
 }
 
 .profile__main__search__button__img {

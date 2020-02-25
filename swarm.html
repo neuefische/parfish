@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <title>Parfish</title>
+    <title>Parfish-Profile</title>
   </head>
   <body>
     <header>
@@ -23,33 +23,52 @@
           src="assets/logo-parfish.png"
           alt="Parfish Logo"
         />
-        <button class="header__nav__button">
-          Login
-        </button>
+        <div class="header__nav__dropdown">
+          <button class="profile__header__nav__button">
+            <img
+              class="header__nav__button__icon"
+              src="assets/dropdown-icon.png"
+              alt="dropdown-icon"
+            />
+          </button>
+          <ul class="profile__nav__header__ul">
+            <li class="profile__nav__header__li">
+              <a href="index.html">Start</a>
+            </li>
+            <li class="profile__nav__header__li">
+              <a href="profile.html">Profil</a>
+            </li>
+            <li class="profile__nav__header__li">
+              <a href="swarm.html">Schwarm</a>
+            </li>
+            <li class="profile__nav__header__li">
+              <a href="#">Einstellungen</a>
+            </li>
+            <li class="profile__nav__header__li"><a href="#">Logout</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>
-      <h1 class="main__h1 main__h1__b">Jeder Fisch braucht seinen Schwarm</h1>
-      <form class="register-form" method="post" action="sign-in.html">
-        <div class="register-form__email">
-          <input type="email" name="email" required placeholder="Email" />
+      <h1 class="swarm__main__h1">Mein Schwarm</h1>
+      <div class="swarm__main__container">
+        <div class="swarm__main__container__item">
+          <img src="assets/Uwe.jpeg" alt="Uwe Profilbild" />
+          <h1>derVerführer69</h1>
         </div>
-        <div class="register-form__password">
-          <input
-            type="password"
-            name="password"
-            required
-            placeholder="Passwort"
-          />
+        <div class="swarm__main__container__item">
+          <img src="assets/beautyfull susanne.jpeg" alt="Susanne Profilbild" />
+          <h1>Schnecke91</h1>
         </div>
-        <div class="register-form__go-fishing">
-          <button type="submit" name="submit">lets go fishing!</button>
+        <div class="swarm__main__container__item">
+          <img src="assets/flo.jpeg" alt="Flo Profilbild" />
+          <h1>Dumpfbacke</h1>
         </div>
-      </form>
+      </div>
     </main>
     <footer>
       <nav class="footer__nav">
-        <button class="footer__nav__button footer__nav__button-active">
+        <button class="footer__nav__button">
           <a href="index.html">
             <img
               class="footer__nav__button__img"
@@ -73,7 +92,7 @@
               alt="Profile"
           /></a>
         </button>
-        <button class="footer__nav__button">
+        <button class="footer__nav__button footer__nav__button-active">
           <a href="swarm.html">
             <img
               class="footer__nav__button__img"

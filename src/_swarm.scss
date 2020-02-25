@@ -1,19 +1,9 @@
-@use 'variables';
-
-.swarm__main__h1 {
-  text-align: center;
-  padding: 40px 40px 15px 40px;
-  margin-top: 50px;
-  color: variables.$dark-red;
-}
-
 .swarm__main__container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 0px;
+  margin-top: 100px;
   margin-bottom: 50px;
-  padding-top: 0px;
 }
 
 .swarm__main__container__item {

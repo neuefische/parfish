@@ -137,6 +137,12 @@ p {
   box-shadow: none;
   outline: none;
   background-color: variables.$dark-red;
+  color: variables.$font-white;
+}
+
+.profile__main__search__link {
+  color: varables.$font-white;
+  text-decoration: none;
 }
 
 .profile__main__search__button__img {

@@ -1,6 +1,6 @@
 @use 'variables';
 
-$element-size: 320px;
+$element-size: 300px;
 
 .signin-form {
   display: grid;
@@ -8,7 +8,8 @@ $element-size: 320px;
   grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
 
   margin-top: -40px;
-  padding-top: 0;
+  padding: 0 10px 0 10px;
+
   color: variables.$dark-red;
 }
 

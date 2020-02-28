@@ -297,12 +297,6 @@ Styling input file
   display: none;
 }
 
-.inputfile:focus + label,
-.inputfile.has-focus + label {
-  /* outline: 1px dotted #000;
-  outline: -webkit-focus-ring-color auto 5px; */
-}
-
 .inputfile + label svg {
   width: 1em;
   height: 1em;
@@ -394,10 +388,6 @@ select
 
 .signin-form__select::-ms-expand {
   display: none;
-}
-
-.signin-form__select:hover {
-  /* border-color: #888; */
 }
 
 .signin-form__select:focus {

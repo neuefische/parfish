@@ -637,10 +637,6 @@ body {
   color: #941e00;
 }
 
-.main__h1__b {
-  text-align: end;
-}
-
 .footer__nav {
   display: flex;
   justify-content: space-evenly;
@@ -656,8 +652,14 @@ body {
   width: 50px;
 }
 
+.footer__nav__button--active {
+  background-color: #681500;
+  border: none;
+}
+
 .footer__nav__button__img {
   width: 100%;
+  border: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,3 +1,5 @@
+@use 'variables';
+
 .swarm__main__container {
   display: flex;
   flex-direction: column;
@@ -19,4 +21,71 @@
 .swarm__main__container__item img {
   width: 100%;
   border: 0;
+}
+
+.swarm__main__container__item__data {
+  width: 110px;
+  margin-bottom: 20px;
+  padding: 5px 0px;
+  border: solid variables.$dark-red 2px;
+  border-radius: 7px;
+  background-color: variables.$dark-red;
+}
+
+.swarm__main__container__item__nickname {
+  margin: 5px 0px 15px 0px;
+}
+
+.swarm__main__container__item__profile {
+}
+
+.swarm__main__container__item__profile__box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.swarm__main__container__item__draught-age {
+}
+
+.swarm__main__container__item__draught-distance {
+}
+
+.swarm__main__container__item__draught-relationship {
+}
+
+.swarm__main__container__item__draught-bio {
+}
+
+.swarm__main__container__item__draught-bio img {
+  max-height: 14px;
+  width: auto;
+  margin-right: 2px;
+  padding-top: 2px;
+}
+
+.swarm__main__container__item__button-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.swarm__main__container__item__button {
+}
+
+.swarm__main__container__item__button img {
+  max-height: auto;
+  width: 65px;
+  margin-right: 2px;
+  margin-bottom: 10px;
+  padding-top: 2px;
+  border: solid 2px variables.$dark-red;
+}
+
+.swarm__main__container__item__button-no img {
+  width: 65px;
+  height: 65px;
+  padding: 17px 5px;
+}
+
+.swarm__main__container__item__button-yes img {
+  padding: 5px 5px;
 }

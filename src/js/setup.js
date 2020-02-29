@@ -1,2 +1,2 @@
 export const age = 21;
-export const userKey = age;
+export const userKey = "age";

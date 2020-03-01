@@ -41,6 +41,11 @@ body {
   padding-bottom: 10px;
 }
 
+.profile__header__nav__button {
+  background-color: #941e00;
+  border: none;
+}
+
 .header__nav__button__icon {
   width: 30px;
 }
@@ -628,6 +633,8 @@ body {
   font-size: 1.2rem;
   color: #f0f0f0;
   padding-top: 18px;
+  background-color: #941e00;
+  border: none;
 }
 
 .main__h1 {
@@ -654,6 +661,8 @@ body {
 .footer__nav__button {
   height: 50px;
   width: 50px;
+  background-color: #941e00;
+  border: none;
 }
 
 .footer__nav__button__img {

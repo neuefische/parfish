@@ -302,12 +302,6 @@ Styling input file
   display: none;
 }
 
-.inputfile:focus + label,
-.inputfile.has-focus + label {
-  /* outline: 1px dotted #000;
-  outline: -webkit-focus-ring-color auto 5px; */
-}
-
 .inputfile + label svg {
   width: 1em;
   height: 1em;
@@ -399,10 +393,6 @@ select
 
 .signin-form__select::-ms-expand {
   display: none;
-}
-
-.signin-form__select:hover {
-  /* border-color: #888; */
 }
 
 .signin-form__select:focus {
@@ -603,6 +593,55 @@ submit button
   border: 0;
 }
 
+.swarm__main__container__item__data {
+  width: 110px;
+  margin-bottom: 20px;
+  padding: 5px 0px;
+  border: solid #941e00 2px;
+  border-radius: 7px;
+  background-color: #941e00;
+}
+
+.swarm__main__container__item__nickname {
+  margin: 5px 0px 15px 0px;
+}
+
+.swarm__main__container__item__profile__box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.swarm__main__container__item__draught-bio img {
+  max-height: 14px;
+  width: auto;
+  margin-right: 2px;
+  padding-top: 2px;
+}
+
+.swarm__main__container__item__button-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.swarm__main__container__item__button img {
+  max-height: auto;
+  width: 65px;
+  margin-right: 2px;
+  margin-bottom: 10px;
+  padding-top: 2px;
+  border: solid 2px #941e00;
+}
+
+.swarm__main__container__item__button-no img {
+  width: 65px;
+  height: 65px;
+  padding: 17px 5px;
+}
+
+.swarm__main__container__item__button-yes img {
+  padding: 5px 5px;
+}
+
 body {
   background-image: url("../assets/waves_high.png");
   background-size: 400px;
@@ -644,10 +683,6 @@ body {
   color: #941e00;
 }
 
-.main__h1__b {
-  text-align: end;
-}
-
 .footer__nav {
   display: flex;
   justify-content: space-evenly;
@@ -665,8 +700,14 @@ body {
   border: none;
 }
 
+.footer__nav__button--active {
+  background-color: #681500;
+  border: none;
+}
+
 .footer__nav__button__img {
   width: 100%;
+  border: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

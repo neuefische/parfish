@@ -1,0 +1,18 @@
+@use 'variables';
+
+.errorbox {
+  position: absolute;
+  top: 11rem;
+  background-color: red;
+  color: #fff;
+  width: 300px;
+  border: none;
+  border-radius: 0.5em;
+  padding: 15px 22px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+}
+
+.form___button__disabled {
+  background-color: silver !important;
+}

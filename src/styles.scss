@@ -4,6 +4,7 @@
 @use 'signin_form';
 @use 'register_form';
 @use 'swarm';
+@use 'errorbox';
 
 body {
   background-image: url("../assets/waves_high.png");

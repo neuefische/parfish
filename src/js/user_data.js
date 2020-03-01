@@ -5,7 +5,8 @@ export const users = [
     age: 34,
     distance: 22,
     relationship: "Ehe",
-    biography: "Lorem Ipsum"
+    biography: "Lorem Ipsum",
+    email: "steinberg@braunsfeld.com"
   },
   {
     avatar: "fishFlo.svg",
@@ -13,7 +14,8 @@ export const users = [
     age: 19,
     distance: 223,
     relationship: "one night stand",
-    biography: "Lorem Ipsum 1323"
+    biography: "Lorem Ipsum 1323",
+    email: "fish@burger.com"
   },
   {
     avatar: "beautyful_susanne.jpeg",
@@ -21,7 +23,8 @@ export const users = [
     age: 34,
     distance: 24,
     relationship: "offene Beziehung",
-    biography: "Lorem Ipsum"
+    biography: "Lorem Ipsum",
+    email: "susanne@schnecke.de"
   },
   {
     avatar: "flo.jpeg",
@@ -29,110 +32,79 @@ export const users = [
     age: 31,
     distance: 20,
     relationship: "polyamor",
-    biography: "Bin einsam"
+    biography: "Bin einsam",
+    email: "fisch@kopf.de"
   },
   {
     avatar: "flo.jpeg",
-    nickname: "fischkopf",
+    nickname: "mustermann",
     age: 31,
+    distance: 32,
+    relationship: "monogam",
+    biography: "Alles ist gut",
+    email: "muster@mann.de"
+  },
+  {
+    avatar: "fishes.svg",
+    nickname: "hecht2020",
+    age: 66,
+    distance: 2,
+    relationship: "solo 4ever",
+    biography: "Coding everyday",
+    email: "hecht@coding.de"
+  },
+  {
+    avatar: "fishingSusanne.svg",
+    nickname: "Icequeen",
+    age: 23,
     distance: 20,
-    relationship: "polyamor",
-    biography: "Bin einsam"
+    relationship: "Wochenende",
+    biography: "Es war einmal",
+    email: "ice@queen.de"
   },
   {
     avatar: "flo.jpeg",
-    nickname: "fischkopf",
-    age: 31,
-    distance: 20,
+    nickname: "man of the year 1683",
+    age: 11,
+    distance: 23,
     relationship: "polyamor",
-    biography: "Bin einsam"
+    biography: "die young, stay pretty",
+    email: "man@year.de"
   },
   {
-    avatar: "flo.jpeg",
-    nickname: "fischkopf",
-    age: 31,
-    distance: 20,
+    avatar: "fishUwe.svg",
+    nickname: "Love4Ever",
+    age: 85,
+    distance: 202,
     relationship: "polyamor",
-    biography: "Bin einsam"
+    biography: "Was besseres als den Tod...",
+    email: "love@forever.de"
   },
   {
-    avatar: "flo.jpeg",
-    nickname: "fischkopf",
-    age: 31,
-    distance: 20,
-    relationship: "polyamor",
-    biography: "Bin einsam"
+    avatar: "dolly-fish.svg",
+    nickname: "Baby Doll",
+    age: 38,
+    distance: 120,
+    relationship: "monoamor",
+    biography: "lost in the sea",
+    email: "baby@doll.com"
   },
   {
-    avatar: "flo.jpeg",
-    nickname: "fischkopf",
+    avatar: "fishPipi.svg",
+    nickname: "Octopus3003",
     age: 31,
-    distance: 20,
-    relationship: "polyamor",
-    biography: "Bin einsam"
+    distance: 201,
+    relationship: "polyglott",
+    biography: "Ich strecke meine Tentakeln...",
+    email: "octopus@future.de"
   },
   {
-    avatar: "flo.jpeg",
-    nickname: "fischkopf",
+    avatar: "sushi.svg",
+    nickname: "Sushi2000",
     age: 31,
-    distance: 20,
+    distance: 40,
     relationship: "polyamor",
-    biography: "Bin einsam"
-  },
-  {
-    avatar: "flo.jpeg",
-    nickname: "fischkopf",
-    age: 31,
-    distance: 20,
-    relationship: "polyamor",
-    biography: "Bin einsam"
-  },
-  {
-    avatar: "flo.jpeg",
-    nickname: "fischkopf",
-    age: 31,
-    distance: 20,
-    relationship: "polyamor",
-    biography: "Bin einsam"
-  },
-  {
-    avatar: "flo.jpeg",
-    nickname: "fischkopf",
-    age: 31,
-    distance: 20,
-    relationship: "polyamor",
-    biography: "Bin einsam"
-  },
-  {
-    avatar: "flo.jpeg",
-    nickname: "fischkopf",
-    age: 31,
-    distance: 20,
-    relationship: "polyamor",
-    biography: "Bin einsam"
-  },
-  {
-    avatar: "flo.jpeg",
-    nickname: "fischkopf",
-    age: 31,
-    distance: 20,
-    relationship: "polyamor",
-    biography: "Bin einsam"
-  },
-  {
-    avatar: "flo.jpeg",
-    nickname: "fischkopf",
-    age: 31,
-    distance: 20,
-    relationship: "polyamor",
-    biography: "Bin einsam"
-  },
-  {
-    avatar: "flo.jpeg",
-    nickname: "fischkopf",
-    age: 31,
-    distance: 20,
-    relationship: "polyamor",
-    biography: "Bin einsam"
+    biography: "lost in the sushi bar",
+    email: "sushi@experience.de"
   }
 ];

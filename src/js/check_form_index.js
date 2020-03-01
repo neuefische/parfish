@@ -9,8 +9,10 @@ const submitButton = document.querySelector(
   ".register-form__go-fishing button"
 );
 
+// All function calls that are to be executed after the page has been loaded come into this function
 const init = () => deactivateButton();
 
+// functions are addet to the elements
 emailInput.addEventListener("keyup", event => {
   checkEmailDuplicated(users, errorboxText);
 });
@@ -18,6 +20,7 @@ passwordInput.addEventListener("keyup", event => {
   checkEmailDuplicated(users, errorboxText);
 });
 
+// function checked if the emailadress is in the users json file
 const checkEmailDuplicated = (users, errorboxTest) => {
   checkButton();
   clearErrorbox();
@@ -26,6 +29,7 @@ const checkEmailDuplicated = (users, errorboxTest) => {
   });
 };
 
+// errorbox, when the email is in the users json file
 const createErrorbox = errorboxText => {
   const errorbox = document.createElement("div");
   errorbox.classList.add("errorbox");
@@ -34,11 +38,13 @@ const createErrorbox = errorboxText => {
   deactivateButton();
 };
 
+// no duplicate email no errorbox
 const clearErrorbox = () => {
   if (document.querySelector(".errorbox"))
     document.querySelector(".errorbox").remove();
 };
 
+// submitbutton disabled or not disabled
 const checkButton = () =>
   emailInput.value === "" ||
   passwordInput.value === "" ||
@@ -56,4 +62,5 @@ const activateButton = () => {
   submitButton.disabled = false;
 };
 
+// Function call, immediately after loading the page
 init();

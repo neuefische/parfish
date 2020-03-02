@@ -35,6 +35,8 @@ body {
   font-size: 1.2rem;
   color: variables.$font-white;
   padding-top: 18px;
+  background-color: variables.$dark-red;
+  border: none;
 }
 
 .main__h1 {
@@ -57,6 +59,8 @@ body {
 .footer__nav__button {
   height: 50px;
   width: 50px;
+  background-color: variables.$dark-red;
+  border: none;
 }
 
 .footer__nav__button--active {

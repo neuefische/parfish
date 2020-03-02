@@ -80,6 +80,15 @@
   border: solid 2px variables.$dark-red;
 }
 
+.swarm__main__container__item__button-no {
+  background-color: transparent;
+  border: 0px;
+}
+
+.swarm__main__container__item__button-yes {
+  background-color: transparent;
+  border: 0px;
+}
 .swarm__main__container__item__button-no img {
   width: 65px;
   height: 65px;

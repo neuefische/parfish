@@ -3,7 +3,7 @@ export const users = [
     avatar: "Uwe.jpeg",
     nickname: "hotfish",
     age: 34,
-    distance: 22,
+    distance: 42,
     relationship: "Ehe",
     biography: "Lorem Ipsum",
     email: "steinberg@braunsfeld.com"
@@ -76,6 +76,47 @@ export const users = [
     nickname: "Love4Ever",
     age: 85,
     distance: 202,
+    distance: 2,
+    relationship: "polyamor",
+    biography: "Bin einsam"
+  },
+  {
+    avatar: "fishingSusanne.svg",
+    nickname: "Icequeen",
+    age: 23,
+    distance: 20,
+    relationship: "Wochenende",
+    biography: "Bin einsam"
+  },
+  {
+    avatar: "flo.jpeg",
+    nickname: "man of the year 1683",
+    age: 11,
+    distance: 23,
+    relationship: "polyamor",
+    biography: "Bin einsam"
+  },
+  {
+    avatar: "fishUwe.svg",
+    nickname: "Love4Ever",
+    age: 85,
+    distance: 202,
+    relationship: "polyamor",
+    biography: "Bin einsam"
+  },
+  {
+    avatar: "dolly-fish.svg",
+    nickname: "Baby Doll",
+    age: 38,
+    distance: 120,
+    relationship: "polyamor",
+    biography: "lost in the sea"
+  },
+  {
+    avatar: "fishPipi.svg",
+    nickname: "Octopus3003",
+    age: 31,
+    distance: 201,
     relationship: "polyamor",
     biography: "Was besseres als den Tod...",
     email: "love@forever.de"

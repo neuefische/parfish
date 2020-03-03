@@ -32,14 +32,14 @@ body {
   background-color: #941e00;
   border-radius: 0 0 7px 7px;
   opacity: 0;
-  display: none;
+  pointer-events: none;
   transform: translateY(-10px);
   transition: all 0.4s ease;
 }
 
-.header__nav__dropdown button:focus + ul {
+.header__nav__dropdown:focus-within button + ul {
   opacity: 1;
-  display: block;
+  pointer-events: all;
   transform: translateY(0px);
 }
 

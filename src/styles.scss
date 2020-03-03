@@ -4,6 +4,7 @@
 @use 'signin_form';
 @use 'register_form';
 @use 'swarm';
+@use 'errorbox';
 
 body {
   background-image: url("../assets/waves_high.png");
@@ -35,6 +36,8 @@ body {
   font-size: 1.2rem;
   color: variables.$font-white;
   padding-top: 18px;
+  background-color: variables.$dark-red;
+  border: none;
 }
 
 .main__h1 {
@@ -42,10 +45,6 @@ body {
   padding: 40px;
   margin-top: 70px;
   color: variables.$dark-red;
-}
-
-.main__h1__b {
-  text-align: end;
 }
 
 .footer__nav {
@@ -61,8 +60,16 @@ body {
 .footer__nav__button {
   height: 50px;
   width: 50px;
+  background-color: variables.$dark-red;
+  border: none;
+}
+
+.footer__nav__button--active {
+  background-color: #681500;
+  border: none;
 }
 
 .footer__nav__button__img {
   width: 100%;
+  border: none;
 }

@@ -36,6 +36,11 @@
   padding-bottom: 10px;
 }
 
+.profile__header__nav__button {
+  background-color: variables.$dark-red;
+  border: none;
+}
+
 .header__nav__button__icon {
   width: 30px;
 }

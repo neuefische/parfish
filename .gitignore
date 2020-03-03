@@ -105,3 +105,5 @@ typings/
 
 .vscode
 .DS_STORE
+
+dist/

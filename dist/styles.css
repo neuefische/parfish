@@ -632,6 +632,16 @@ submit button
   border: solid 2px #941e00;
 }
 
+.swarm__main__container__item__button-no {
+  background-color: transparent;
+  border: 0px;
+}
+
+.swarm__main__container__item__button-yes {
+  background-color: transparent;
+  border: 0px;
+}
+
 .swarm__main__container__item__button-no img {
   width: 65px;
   height: 65px;
@@ -640,6 +650,23 @@ submit button
 
 .swarm__main__container__item__button-yes img {
   padding: 5px 5px;
+}
+
+.errorbox {
+  position: absolute;
+  top: 11rem;
+  background-color: red;
+  color: #fff;
+  width: 300px;
+  border: none;
+  border-radius: 0.5em;
+  padding: 15px 22px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+}
+
+.form___button__disabled {
+  background-color: silver !important;
 }
 
 body {

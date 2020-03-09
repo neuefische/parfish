@@ -671,7 +671,7 @@ submit button
 
 body {
   width: 375px;
-  background-image: url("../assets/background_desktop.png");
+  background-image: url("../assets/waves_high.png");
   background-repeat: no-repeat;
   position: relative;
   margin-left: auto;
@@ -683,6 +683,18 @@ body {
   font-family: Roboto;
 }
 
+@media only screen and (min-device-width: 500px) {
+  body {
+    background-image: url("../assets/background_desktop.png");
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    background-size: 100%;
+    background-position-y: bottom;
+    background-attachment: fixed;
+  }
+}
 .header__nav {
   display: flex;
   background-color: #941e00;

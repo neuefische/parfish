@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/neuefische/parfish#readme",
   "dependencies": {
-    "htmlhint": "^0.11.0",
+    "htmlhint": "^1.1.4",
     "prettier": "^1.19.1"
   },
   "devDependencies": {
